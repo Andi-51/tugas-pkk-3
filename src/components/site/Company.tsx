@@ -22,7 +22,7 @@ export function Company() {
             seluruh Indonesia. Kami percaya kualitas material adalah fondasi setiap
             produk industri yang baik.
           </p>
-          <div className="mt-8 overflow-hidden border border-border">
+          <div className="mt-8 overflow-hidden rounded-2xl border border-border shadow-card">
             <img
               src={gallery}
               alt="Stok besi batang premium siap kirim"

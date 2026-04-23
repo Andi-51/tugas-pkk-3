@@ -60,6 +60,7 @@ export function Specs() {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </section>
