@@ -81,9 +81,9 @@ export function Navbar() {
               {/* Header */}
               <div className="flex h-16 items-center justify-between border-b border-border px-6">
                 <div className="flex items-center gap-2.5">
-                  <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
+                  {/* <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
                     F
-                  </span>
+                  </span> */}
                   <span className="font-display text-base font-bold tracking-tight">
                     {SITE.brand}
                   </span>
