@@ -25,11 +25,11 @@ export function Gallery() {
           </div>
         </div>
 
-        <div className="mt-10 grid grid-cols-2 gap-3 lg:grid-cols-4 lg:grid-rows-2">
+        <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4 lg:grid-rows-2">
           {images.map((img, i) => (
             <figure
               key={i}
-              className={`group relative overflow-hidden border border-border bg-card ${img.span}`}
+              className={`group relative overflow-hidden rounded-2xl border border-border bg-card shadow-card ${img.span}`}
             >
               <img
                 src={img.src}
@@ -39,7 +39,7 @@ export function Gallery() {
                 height={1200}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
               />
-              <figcaption className="absolute bottom-3 left-3 bg-background/95 px-3 py-1.5 text-[10px] uppercase tracking-widest text-foreground">
+              <figcaption className="absolute bottom-3 left-3 rounded-full bg-background/95 px-3 py-1.5 text-[10px] uppercase tracking-widest text-foreground">
                 {img.label}
               </figcaption>
             </figure>

@@ -43,7 +43,7 @@ export function Variants() {
                     key={d}
                     onClick={() => setDia(d)}
                     className={cn(
-                      "h-11 min-w-[72px] border px-4 text-sm font-medium transition-colors",
+                      "h-11 min-w-[72px] rounded-full border px-4 text-sm font-medium transition-colors",
                       dia === d
                         ? "border-foreground bg-foreground text-background"
                         : "border-border bg-card text-foreground hover:border-foreground/60"
@@ -68,9 +68,9 @@ export function Variants() {
                       key={g.k}
                       onClick={() => setGrade(g.k)}
                       className={cn(
-                        "group flex flex-col items-start gap-2 border p-4 text-left transition-colors",
+                        "group flex flex-col items-start gap-2 rounded-xl border p-4 text-left transition-all",
                         active
-                          ? "border-foreground bg-card"
+                          ? "border-foreground bg-card shadow-card"
                           : "border-border bg-card hover:border-foreground/60"
                       )}
                     >
@@ -87,7 +87,7 @@ export function Variants() {
           </div>
 
           <aside className="lg:col-span-5">
-            <div className="border border-border bg-card p-7">
+            <div className="rounded-2xl border border-border bg-card p-7 shadow-card">
               <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
                 Ringkasan Pemesanan
               </p>
@@ -105,7 +105,7 @@ export function Variants() {
                 href={waLink(message)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
+                className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
               >
                 Pesan Varian Ini
                 <ArrowRight className="h-4 w-4" />

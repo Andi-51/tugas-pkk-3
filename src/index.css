@@ -39,7 +39,7 @@
     --input: 210 6% 85%;
     --ring: 30 58% 41%;
 
-    --radius: 0.25rem;
+    --radius: 0.625rem;
 
     --shadow-card: 0 1px 2px hsl(213 18% 16% / 0.04), 0 8px 24px -12px hsl(213 18% 16% / 0.08);
     --shadow-elevated: 0 4px 12px -4px hsl(213 18% 16% / 0.08), 0 16px 40px -16px hsl(213 18% 16% / 0.12);

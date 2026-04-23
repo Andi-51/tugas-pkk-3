@@ -23,14 +23,14 @@ export function Hero() {
               href={waLink(DEFAULT_WA_MESSAGE)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-12 items-center justify-center gap-2 bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
             >
               Pesan via WhatsApp
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
               href="#spesifikasi"
-              className="inline-flex h-12 items-center justify-center border border-border bg-card px-6 text-sm font-semibold text-foreground transition-colors hover:border-foreground"
+              className="inline-flex h-12 items-center justify-center rounded-full border border-border bg-card px-6 text-sm font-semibold text-foreground transition-colors hover:border-foreground"
             >
               Lihat Spesifikasi
             </a>
@@ -51,7 +51,7 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-6">
-          <div className="relative bg-card border border-border">
+          <div className="relative overflow-hidden rounded-2xl bg-card border border-border shadow-card">
             <img
               src={heroImg}
               alt="Besi batang premium dengan permukaan presisi tinggi"
@@ -59,7 +59,7 @@ export function Hero() {
               height={1200}
               className="h-full w-full object-cover"
             />
-            <div className="absolute bottom-4 left-4 bg-background/95 backdrop-blur px-4 py-3 border border-border">
+            <div className="absolute bottom-4 left-4 rounded-xl bg-background/95 backdrop-blur px-4 py-3 border border-border shadow-sm">
               <p className="text-[10px] uppercase tracking-widest text-muted-foreground">Produk Utama</p>
               <p className="mt-1 font-display text-sm font-semibold">Besi Batang Premium · Cold-Drawn</p>
             </div>

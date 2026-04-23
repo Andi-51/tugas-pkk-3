@@ -23,7 +23,7 @@ export function OrderCTA() {
               href={waLink(DEFAULT_WA_MESSAGE)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-12 items-center justify-center gap-2 bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
             >
               <MessageCircle className="h-4 w-4" />
               Pesan via WhatsApp
@@ -31,7 +31,7 @@ export function OrderCTA() {
             </a>
             <a
               href={`tel:${SITE.phone.replace(/\s/g, "")}`}
-              className="inline-flex h-12 items-center justify-center gap-2 border border-background/20 px-6 text-sm font-semibold text-background transition-colors hover:bg-background/10"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-background/20 px-6 text-sm font-semibold text-background transition-colors hover:bg-background/10"
             >
               <Phone className="h-4 w-4" />
               {SITE.phone}
@@ -40,7 +40,7 @@ export function OrderCTA() {
         </div>
 
         <aside className="lg:col-span-5">
-          <div className="border border-background/15 p-7">
+          <div className="rounded-2xl border border-background/15 bg-background/[0.03] p-7">
             <p className="text-[11px] uppercase tracking-widest text-background/50">
               Format Pesan Default
             </p>
