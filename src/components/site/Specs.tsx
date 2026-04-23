@@ -27,7 +27,8 @@ export function Specs() {
           </p>
         </div>
 
-        <div className="mt-10 overflow-x-auto border border-border bg-background">
+        <div className="mt-10 overflow-hidden rounded-2xl border border-border bg-background shadow-card">
+          <div className="overflow-x-auto">
           <table className="w-full min-w-[720px] border-collapse text-sm">
             <thead>
               <tr className="border-b border-border bg-card">

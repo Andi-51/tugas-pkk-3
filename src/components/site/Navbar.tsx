@@ -31,7 +31,7 @@ export function Navbar() {
     >
       <div className="container-x flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5">
-          <span className="grid h-8 w-8 place-items-center bg-foreground text-background font-display text-sm font-bold">
+          <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
             F
           </span>
           <span className="font-display text-base font-bold tracking-tight">
@@ -56,7 +56,7 @@ export function Navbar() {
             href={waLink(DEFAULT_WA_MESSAGE)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-10 items-center bg-accent px-5 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
+            className="inline-flex h-10 items-center rounded-full bg-accent px-5 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-hover"
           >
             Pesan via WhatsApp
           </a>
@@ -88,7 +88,7 @@ export function Navbar() {
               href={waLink(DEFAULT_WA_MESSAGE)}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-flex h-11 items-center justify-center bg-accent px-5 text-sm font-semibold text-accent-foreground"
+              className="mt-2 inline-flex h-11 items-center justify-center rounded-full bg-accent px-5 text-sm font-semibold text-accent-foreground"
             >
               Pesan via WhatsApp
             </a>

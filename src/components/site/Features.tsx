@@ -20,13 +20,15 @@ export function Features() {
           </h2>
         </div>
 
-        <div className="mt-12 grid gap-px bg-border lg:grid-cols-3 sm:grid-cols-2 border border-border">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((it) => (
             <div
               key={it.title}
-              className="group bg-card p-7 transition-colors hover:bg-background"
+              className="group rounded-2xl border border-border bg-card p-7 transition-all hover:shadow-card hover:-translate-y-0.5"
             >
-              <it.icon className="h-6 w-6 text-accent" strokeWidth={1.5} />
+              <div className="grid h-11 w-11 place-items-center rounded-xl bg-accent/10 text-accent">
+                <it.icon className="h-5 w-5" strokeWidth={1.75} />
+              </div>
               <h3 className="mt-5 font-display text-lg font-semibold">{it.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{it.desc}</p>
             </div>
