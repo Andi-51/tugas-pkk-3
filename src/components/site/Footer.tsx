@@ -15,9 +15,9 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-2.5">
-              <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
+              {/* <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
                 F
-              </span>
+              </span> */}
               <span className="font-display text-base font-bold tracking-tight">
                 {SITE.brand}
               </span>

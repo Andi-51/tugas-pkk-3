@@ -32,9 +32,9 @@ export function Navbar() {
     >
       <div className="container-x flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5">
-          <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
+          {/* <span className="grid h-8 w-8 place-items-center rounded-md bg-foreground text-background font-display text-sm font-bold">
             F
-          </span>
+          </span> */}
           <span className="font-display text-base font-bold tracking-tight">
             {SITE.brand}
           </span>
